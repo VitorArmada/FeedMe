@@ -1,0 +1,128 @@
+﻿@model FeedMe.Models.LocalPasswordModel
+@{
+    ViewBag.Title = "Gerir Conta";
+}
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#IngrTextbox").val("dummy");
+		$("#IngrTextbox").select2(
+			{
+				placeholder: "",
+				multiple: true,
+				minimumInputLength: 0,
+				maximumSelectionSize: 10,
+				allowClear: true,
+				ajax: {
+					dataType: "json",
+					type: "POST",
+					url: "@Url.Action("FetchIngredientes", "Ingrediente")",
+					data: function (term) {
+						return {
+							searchTerm: term
+						};
+					},
+					results: function (data) {
+						return { results: data };
+					}
+				},
+				initSelection: function (element, callback) {
+					var nomeUser = "@User.Identity.Name";
+					$.ajax({
+						dataType: "json",
+						type: "POST",
+						url: "@Url.Action("APIGetIngredientesUtilizador", "Ingrediente")",
+						data: { nomeUser: nomeUser },
+						//contentType: "application/json; charset=utf-8"
+					}).done(function (data) { callback(data); });
+				}
+			});
+
+		$("#IngrForm").submit(function (event) {
+			event.preventDefault();
+			setIngredients();
+		});
+	});
+
+	var setIngredients = function () {
+		var ings = $("#IngrTextbox").select2('data');
+		var nomeUser = "@User.Identity.Name";
+		$.ajax(
+		{
+			url: '@Url.Action("APISetIngredientesUtilizador", "Ingrediente")',
+			async: false,
+			type: "POST",
+			data: JSON.stringify({ nomeUser: nomeUser, IngsList: ings }),
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			success: function (data) {
+				reportError("#IngrError", data.text);
+			},
+			error: function (data) {
+				reportError("#IngrError", data.responseText);
+			}
+		})
+	}
+	
+	function reportError(elem, message) {
+		var erro = $(elem);
+		erro.hide();
+		erro.text(message);
+		erro.fadeIn(200);
+		erro.delay(4000).fadeOut(200);
+	}
+
+</script>
+
+
+
+<div class="container" style="padding-top:50px">
+    <div style="text-align: right">
+        <hgroup class="title">
+            <h1>@ViewBag.Title</h1>
+        </hgroup>
+        <p>Tem a sessão iniciada como <strong>@User.Identity.Name</strong></p>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="well register_form">
+        <div class="row-fluid">
+            <div class="span6">
+                @if (ViewBag.HasLocalPassword)
+                {
+                    @Html.Partial("_ChangePasswordPartial")
+                }
+                else
+                {
+                    // @Html.Partial( ("_SetPasswordPartial")
+                }
+                <p class="message-success">@ViewBag.StatusMessage</p>
+            </div>
+            <div class="span6">
+                <form id="IngrForm">
+	                <fieldset>
+		                <legend>Configurar Ingredientes Excluídos</legend>
+		                <input id="IngrTextbox" type="text">
+                        <button type="submit" class="btn btn-success">Definir</button>
+		                <label id="IngrError" />
+	                </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+<section id="externalLogins">
+	Html.Action("RemoveExternalLogins")
+
+    <h3>Add an external login</h3>
+    Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>
+-->
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

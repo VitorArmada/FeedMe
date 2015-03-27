@@ -1,0 +1,41 @@
+﻿@model FeedMe.Models.Receita
+
+@{
+    ViewBag.Title = "Apagar Receita";
+}
+
+
+<div class="container" style="padding-top:50px">
+
+    <div style="text-align: right">
+        <hgroup class="title">
+            <h1>@ViewBag.Title</h1>
+        </hgroup>
+    </div>
+
+   <div class="well" >
+     <div class="row-fluid">
+
+<h5>Tens a certeza que queres apagar a receita ?</h5>
+<fieldset>
+
+    <div class="display-field">
+       <h3> @Html.DisplayFor(model => model.Titulo) </h3>
+    </div>
+
+    <div class="display-field">
+       <h4> @Html.DisplayFor(model => model.Descricao) </h4>
+    </div>
+</fieldset>
+@using (Html.BeginForm())
+{
+    <p>
+        <button type="submit" class="btn btn-warning">Apagar Receita</button>
+    </p>
+
+    
+}
+
+     </div>
+    </div>
+    </div>

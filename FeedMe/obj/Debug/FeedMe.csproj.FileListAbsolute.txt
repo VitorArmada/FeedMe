@@ -1,0 +1,582 @@
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\FeedMe\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\FeedMe.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\FeedMe.pdb
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\Antlr3.Runtime.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.Core.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\EntityFramework.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\Newtonsoft.Json.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Net.Http.Formatting.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Helpers.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Http.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Http.WebHost.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Mvc.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Optimization.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Razor.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.WebPages.Deployment.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.WebPages.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.WebPages.Razor.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\WebGrease.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\WebMatrix.Data.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\WebMatrix.WebData.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\EntityFramework.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\Newtonsoft.Json.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Net.Http.Formatting.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Helpers.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Http.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Http.WebHost.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Mvc.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.Razor.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.WebPages.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.WebPages.Deployment.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\System.Web.WebPages.Razor.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\WebMatrix.Data.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\WebMatrix.WebData.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.Core.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\obj\Debug\FeedMe.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\FeedMe\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.pdb
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebGrease.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.pdb
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\WebGrease.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\FeedMe.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\FeedMe.pdb
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\EntityFramework.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Http.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Razor.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\WebGrease.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\EntityFramework.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Http.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.Razor.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\Benjamim\Documents\Visual Studio 2012\Projects\FeedMe\FeedMe\obj\Debug\FeedMe.pdb
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.pdb
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\Antlr3.Runtime.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Optimization.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\WebGrease.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.pdb
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\FeedMe.pdb
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebGrease.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\EntityFramework.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.Razor.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sergio\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\FeedMe.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\FeedMe.pdb
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\EntityFramework.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Http.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Razor.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\WebGrease.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\EntityFramework.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Http.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.Razor.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\bb\Dropbox\3ANO2SEM\LI4\Terceira Fase\SAM\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\FeedMe.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\FeedMe.pdb
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\EntityFramework.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Razor.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebGrease.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\EntityFramework.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Razor.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.pdb
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\FeedMe.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\FeedMe.pdb
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\Antlr3.Runtime.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.Core.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\EntityFramework.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\Newtonsoft.Json.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Net.Http.Formatting.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Helpers.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.WebHost.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Mvc.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Optimization.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Razor.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Deployment.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Razor.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\WebGrease.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.Data.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.WebData.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\EntityFramework.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\Newtonsoft.Json.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Net.Http.Formatting.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Helpers.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.WebHost.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Mvc.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Razor.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Deployment.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Razor.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.Data.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.WebData.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.Core.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.dll
+D:\Users\Sergio\Dropbox\Universidade\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\FeedMe.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\FeedMe.pdb
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\EntityFramework.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Http.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Razor.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\WebGrease.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\EntityFramework.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Http.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.Razor.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\Carlos Guilherme\Dropbox\LI4\Terceira Fase\Carlos\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\FeedMe.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\FeedMe.pdb
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\EntityFramework.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Net.Http.Formatting.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.WebHost.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Razor.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebGrease.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\EntityFramework.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Net.Http.Formatting.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Http.WebHost.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.Razor.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\Utilizador\Dropbox\LI4\Terceira Fase\Sam\FeedMe\obj\Debug\FeedMe.pdb
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\FeedMe.dll.config
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\FeedMe.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\FeedMe.pdb
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\Antlr3.Runtime.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.Core.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\EntityFramework.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\Newtonsoft.Json.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.Helpers.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.Mvc.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.Optimization.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.Razor.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.WebPages.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.WebPages.Razor.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\WebGrease.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\WebMatrix.Data.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\WebMatrix.WebData.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\EntityFramework.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\Newtonsoft.Json.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.Helpers.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.Mvc.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.Razor.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.WebPages.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\System.Web.WebPages.Razor.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\WebMatrix.Data.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\WebMatrix.WebData.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.Core.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Utilizador\Desktop\Sam\FeedMe\obj\Debug\FeedMe.csprojResolveAssemblyReference.cache
+C:\Users\Utilizador\Desktop\Sam\FeedMe\obj\Debug\FeedMe.dll
+C:\Users\Utilizador\Desktop\Sam\FeedMe\obj\Debug\FeedMe.pdb

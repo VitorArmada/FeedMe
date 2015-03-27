@@ -1,0 +1,66 @@
+﻿
+#afterDisplay {
+    display: none;
+}
+
+.oimg{
+  opacity: 0.8;
+  background: #ECF0F1;
+}
+
+.imgcenter {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.acolor{
+  color: #FD3E4C;
+}
+
+ .nextprev{
+  text-align: right;
+ }
+
+ .more{
+  text-align: center;
+ }
+
+ .img-feed{
+    border: 3px solid #34495E;
+ }
+
+ .comment{
+  background-color: #ECF0F1;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid #BDC3C7;
+  margin-bottom: 5px;
+
+ }
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  float: right;
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.receitasholder {
+    min-height: 350px;
+}
+
+.CommentInput {
+    height:10px; 
+    width:500px; 
+    padding: 10px 10px 10px 10px;
+}

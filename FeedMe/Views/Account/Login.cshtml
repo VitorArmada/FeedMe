@@ -1,0 +1,68 @@
+﻿@model FeedMe.Models.LoginModel
+
+@{
+    ViewBag.Title = "Iniciar Sessão";
+}
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+    @Html.AntiForgeryToken()
+        
+        <div class="container">
+        <div class="well register_form">
+            <form id="signup" class="form-horizontal" method="post" action="success.php">
+                <legend>Login</legend>
+                <div class="control-group">
+                    <label class="control-label">Username</label>
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-user"></i></span>
+                             @Html.TextBoxFor(m => m.UserName,new {@placeholder="Nome de utilizador"})
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Password</label>
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-lock"></i></span>
+                            @Html.PasswordFor(m => m.Password,new {@placeholder="Senha"})
+                        </div>
+                    </div>
+                    <div class="control-group">
+                    <div class="controls">
+                        <div class="input-prepend">
+                           <span> @Html.CheckBoxFor(m => m.RememberMe)</span><span>
+                             @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox" })</span>
+                        </div>
+                    </div>      
+                    <div class="control-group">
+                            <label class="control-label"></label>
+                            <div class="controls">
+                                <button type="submit" class="btn btn-success">Iniciar sessão</button>
+                            </div>
+                        </div>
+                </div>
+                
+                
+                <div id="ValidationMessages">
+                    @Html.ValidationMessageFor(m => m.UserName)
+                    @Html.ValidationMessageFor(m => m.Password)
+                    @Html.ValidationSummary(true)
+                </div>
+            </form>
+        </div>
+    </div>
+   
+    <p>
+        @Html.ActionLink("Registe-se", "Register") se ainda não possui uma conta.
+    </p>
+}
+
+<!--
+<section class="social" id="socialLoginForm">
+    <h2>Use another service to log in.</h2>
+    Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>
+-->
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

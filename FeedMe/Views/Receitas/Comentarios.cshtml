@@ -1,0 +1,17 @@
+﻿@model FeedMe.Models.Receita
+
+@foreach (var item in Model.Comentarios)
+{
+
+	 <div class="comment" id="@Html.DisplayFor(modelItem => item.ComentarioId)">
+          @if (User.Identity.IsAuthenticated
+				&& ((FeedMe.Models.DatabaseContext.getByName(User.Identity.Name).UtilizadorId == item.Utilizador.UtilizadorId)
+					|| FeedMe.Models.DatabaseContext.isAdminStatic(User.Identity.Name))){
+	        <button type="button" class="close" >×</button>
+          }
+	        <p style="color:black"><i>@Html.DisplayFor(modelItem => item.Utilizador.Nome) @if (item.Utilizador.isAdmin()){<span>[Admin]</span>} diz: </i></p> 
+            <p><small>@Html.DisplayFor(modelItem => item.Data)</small></p>
+	        <strong>@Html.DisplayFor(modelItem => item.Texto)</strong>
+	 </div>
+                
+}

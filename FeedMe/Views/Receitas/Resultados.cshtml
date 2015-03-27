@@ -1,0 +1,53 @@
+﻿@model IEnumerable<FeedMe.Models.Receita>
+
+
+
+@if ( Model.Count() == 0 )
+{       <div style="text-align:center">
+	        <h2>Não existem receitas que satisfazem o pedido.</h2>
+		    <h4>Tente fazer uma pesquisa diferente.</h4>
+        </div>
+} else
+{
+	<input id="HasPrev" style="display: none;" value="@ViewBag.hasPrev" />
+	<input id="HasNext" style="display: none;" value="@ViewBag.hasNext" />
+		<div class="row">
+            @foreach ( var item in Model )
+	        {
+			    <div class="span3 itemResultadoReceita">
+                    <div class="itemCenter">
+                        <a href="@Url.Action("Details", new { id = item.ReceitaId })"><img src="@Href(item.getLastPictureUrl())" class="img-rounded imgreceita"></a>
+                        <div class="caption">
+                            <br />
+                        <h4 style="text-align: center">@item.Titulo</h4>
+                        <hr />
+                        <div style="text-align: center">
+                        <div class="itemCenter">
+                            <p><i class="icon-time"></i>  @Html.DisplayFor(modelItem => item.Duracao) minutos</p>
+                            
+                            <p><i class="icon-th-list"></i> @Html.DisplayFor(modelItem => item.Comentarios.Count) Comentários</p>
+                            @if(!String.IsNullOrWhiteSpace(item.NumeroPessoas)){<p><i class="icon-user"></i>  @Html.DisplayFor(modelItem => item.NumeroPessoas) pessoas</p>}
+                            <p>
+                                @if(item.Classificacoes.Count==0){ <i>Sem Classificação</i>
+                                }else{int classificacao = item.averageClassificacao();
+                                        @Html.Raw("Classificação: ");
+                                    for(int ix=5;ix>0;ix--){
+                                                            if (classificacao > 0){
+                                                                    @Html.Raw("<i class=\"icon-star\"></i>");
+                                                                classificacao--;
+                                                            }else{
+                                                                @Html.Raw("<i class=\"icon-star-empty\"></i>");
+                                                            }
+                                                                
+                                                                                                                       
+                                                        }
+                                    }
+                             </p>
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            }
+         </div>
+}

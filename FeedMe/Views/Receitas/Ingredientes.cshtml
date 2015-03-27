@@ -1,0 +1,42 @@
+﻿@model IEnumerable<FeedMe.DTO.IngredienteReceitaDTO>
+
+@{
+    ViewBag.Title = "Editar Ingredientes";
+}
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		$("#addAnother").click(function () {
+			$.get('/Receitas/IngredienteEditorRow', function (template) {
+				$("#editorRows").append(template);
+			});
+		});
+	});
+
+	$(document).on('click', '.deleteButton', function (event) {
+		if ($(".editorRow").length > 1) {
+			$(event.target).parent().remove();
+		}
+	});
+
+</script>
+
+
+    
+@using(Html.BeginForm()) {
+    <div class="container" style="width:920px">
+        <h2 style="text-align:right;">@ViewBag.Title</h2>
+        <div class="well">
+
+            <div id="editorRows"  class="row">
+                @foreach ( var item in Model )
+                {
+                    Html.RenderPartial("IngredienteEditorRow", item);
+                }
+            </div>  
+            <button type="button" id="addAnother" class="btn btn-success">+</button>  
+            <button type="submit" class="btn btn-sucess" >Guardar e Definir Passos</button>
+        </div>
+    </div>
+}

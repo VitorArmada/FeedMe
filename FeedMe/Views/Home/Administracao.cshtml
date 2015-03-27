@@ -1,0 +1,280 @@
+﻿@{
+    ViewBag.Title = "Administração";
+}
+
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		$("#CreateForm").submit(function (event) {
+			event.preventDefault();
+			createIngrediente();
+		});
+		$("#ModifyForm").submit(function (event) {
+			event.preventDefault();
+			modifyIngrediente();
+		});
+		$("#ReplaceForm").submit(function (event) {
+			event.preventDefault();
+			replaceIngrediente();
+		});
+		$("#DeleteForm").submit(function (event) {
+			event.preventDefault();
+			deleteIngrediente();
+		});
+		$("#DeleteAccountForm").submit(function (event) {
+			event.preventDefault();
+			deleteAccount();
+		});
+
+		$(".TextboxIngredients").select2(
+		{
+			multiple: false,
+			minimumInputLength: 0,
+			maximumSelectionSize: 5,
+			allowClear: true,
+			ajax: {
+				dataType: "json",
+				type: "POST",
+				url: "@Url.Action("FetchIngredientes", "Ingrediente")",
+				data: function (term) {
+					return {
+						searchTerm: term
+					};
+				},
+				results: function (data) {
+					return { results: data };
+				}
+			},
+		});
+
+		$(".TextboxUsers").select2(
+		{
+			multiple: false,
+			minimumInputLength: 0,
+			maximumSelectionSize: 5,
+			allowClear: true,
+			ajax: {
+				dataType: "json",
+				type: "POST",
+				url: "@Url.Action("APIGetUsers", "Utilizadores")",
+				data: function (term) {
+					return {
+						searchTerm: term
+					};
+				},
+				results: function (data) {
+					return { results: data };
+				}
+			},
+		});
+
+	});
+
+	function deleteAccount() {
+		var user = $("#DeleteAccountTextbox").select2("data");
+		if (user == null) {
+			reportError("#DeleteAccountTextbox", "Indique o nome do utilizador.");
+			return;
+		}
+		$.ajax(
+		{
+			url: '@Url.Action("APIRemove", "Utilizadores")',
+			async: false,
+			type: "POST",
+			data: JSON.stringify({ id: user.id }),
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			error: function (data) {
+				$("#DeleteAccountTextbox").select2('data', null);
+				reportError("#DeleteAccountError", data.responseText);
+			},
+			success: function (data) {
+				$("#DeleteAccountTextbox").select2('data', null);
+				reportError("#DeleteAccountError", data.text);
+			}
+		});
+	};
+
+	function deleteIngrediente() {
+		var ingrediente = $("#DeleteTextbox").select2("data");
+		if (ingrediente == null) {
+			reportError("#DeleteError", "Escolha um ingrediente.");
+			return;
+		}
+		$.ajax(
+		{
+			url: '@Url.Action("APIRemove", "Ingrediente")',
+			async: false,
+			type: "POST",
+			data: JSON.stringify({ id: ingrediente.id }),
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			error: function (data) {
+				$("#DeleteTextbox").select2('data', null);
+				reportError("#DeleteError", data.responseText);
+			},
+			success: function (data) {
+				$("#DeleteTextbox").select2('data', null);
+				reportError("#DeleteError", data.text);
+			}
+		});
+	};
+
+	function replaceIngrediente() {
+		var subsOrig = $("#ReplaceTextboxOrig").select2("data");
+		var subsDest = $("#ReplaceTextboxDest").select2("data");
+		if (subsOrig == null || subsDest == null) {
+			reportError("#ReplaceError", "Escolha os ingredientes.");
+			return;
+		}
+		if (subsOrig.text == subsDest.text) {
+			reportError("#ReplaceError", "Escolha ingredientes diferentes.");
+			return;
+		}
+		$.ajax(
+		{
+			url: '@Url.Action("APIReplace", "Ingrediente")',
+			async: false,
+			type: "POST",
+			data: JSON.stringify({ substituir: subsOrig.id, substituto: subsDest.id }),
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			error: function (data) {
+				$("#ReplaceTextboxOrig").select2('data', null);
+				$("#ReplaceTextboxDest").select2('data', null);
+				reportError("#ReplaceError", data.responseText);
+			},
+			success: function (data) {
+				$("#ReplaceTextboxOrig").select2('data', null);
+				$("#ReplaceTextboxDest").select2('data', null);
+				reportError("#ReplaceError", data.text);
+			}
+		});
+	};
+
+	function modifyIngrediente() {
+		var subsOrig = $("#ModifyTextboxOrig").select2("data");
+		var subsDestName = $("#ModifyTextboxDest").val();
+		if (subsOrig == null || subsDestName == "") {
+			reportError("#ModifyError", "Escolha um ingrediente e o novo nome.");
+			return;
+		}
+		$.ajax(
+		{
+			url: '@Url.Action("APIModify", "Ingrediente")',
+			async: false,
+			type: "POST",
+			data: JSON.stringify({ id: subsOrig.id, nome: subsDestName }),
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			error: function (data) {
+				$("#ModifyTextboxOrig").select2('data', null);
+				$("#ModifyTextboxDest").val("");
+				reportError("#ModifyError", data.responseText);
+			},
+			success: function (data) {
+				$("#ModifyTextboxOrig").select2('data', null);
+				$("#ModifyTextboxDest").val("");
+				reportError("#ModifyError", data.text);
+			}
+		});
+	};
+
+
+	function createIngrediente() {
+		var ingrediente = $("#CreateTextbox").val();
+		if (ingrediente == "") {
+			reportError("#CreateError", "Indique um nome para o ingrediente novo.");
+			return;
+		}
+
+		$.ajax(
+		{
+			url: '@Url.Action("APICreate", "Ingrediente")',
+			async: false,
+			type: "POST",
+			data: JSON.stringify({ nome: ingrediente }),
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			success: function (data) {
+				$("#CreateTextbox").val("");
+				reportError("#CreateError", data.text);
+			},
+			error: function (data) {
+				$("#CreateTextbox").val("");
+				reportError("#CreateError", data.responseText);
+			}
+		});
+	};
+
+	function reportError(elem, message) {
+		var erro = $(elem);
+		erro.hide();
+		erro.text(message);
+		erro.fadeIn(200);
+		erro.delay(4000).fadeOut(200);
+	}
+
+</script>
+
+<div class="container" style="padding-top: 40px; padding-bottom: 40px;">
+	<div style="text-align: right">
+		<hgroup class="title">
+			<h1>@ViewBag.Title</h1>
+		</hgroup>
+	</div>
+</div>
+
+<div class="container">
+	<div class="well">
+		<div style="margin-left: auto; margin-right: auto; width: 550px;">
+			<div id="Contas">
+				<h3>Contas</h3>
+				<div>@Html.ActionLink("Criar uma nova conta de administrador","RegisterAdmin","Account")</div>
+				<strong>Eliminar Conta de Utilizador</strong>
+				<label id="DeleteAccountError"></label>
+				<form id="DeleteAccountForm" class="form-inline">
+					<input id="DeleteAccountTextbox" class="TextboxUsers" type="text" data-placeholder="Nome do Utilizador">
+					<button type="SUBMIT" id="DeleteAccountButton" class="btn btn-danger">Eliminar</button>
+				</form>
+			</div>
+			<div id="Ingredientes">
+				<h3>Ingredientes</h3>
+				<div id="AdicionarTitle">
+					<strong>Adicionar</strong>
+					<label id="CreateError"></label>
+					<form id="CreateForm" class="form-inline">
+						<input id="CreateTextbox" class="textbox" type="text" placeholder="Nome do Ingrediente">
+						<button type="SUBMIT" id="CreateButton" class="btn btn-success">Adicionar</button>
+					</form>
+				</div>
+				<div id="ModificarTitle">
+					<strong>Modificar</strong>
+					<label id="ModifyError"></label>
+					<form id="ModifyForm" class="form-inline">
+						<input id="ModifyTextboxOrig" class="TextboxIngredients" type="text" data-placeholder="Nome antigo">
+						<input id="ModifyTextboxDest" class="textbox" type="text" placeholder="Nome novo">
+						<button type="SUBMIT" id="ModifyButton" class="btn btn-warning">Modificar</button>
+					</form>
+				</div>
+				<div id="SubstituirTitle">
+					<strong>Substituir</strong>
+					<label id="ReplaceError"></label>
+					<form id="ReplaceForm" class="form-inline">
+						<input id="ReplaceTextboxOrig" class="TextboxIngredients" type="text" data-placeholder="Ingrediente a Substituir">
+						<input id="ReplaceTextboxDest" class="TextboxIngredients" type="text" data-placeholder="Ingrediente Substituto">
+						<button type="SUBMIT" id="ReplaceButton" class="btn btn-warning">Substituir</button>
+					</form>
+				</div>
+				<div id="EliminarTitle">
+					<strong>Eliminar</strong>
+					<label id="DeleteError"></label>
+					<form id="DeleteForm" class="form-inline">
+						<input id="DeleteTextbox" class="TextboxIngredients" type="text" data-placeholder="Ingrediente a Eliminar">
+						<button type="SUBMIT" id="DeleteButton" class="btn btn-danger">Eliminar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

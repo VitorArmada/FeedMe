@@ -1,0 +1,39 @@
+﻿@model IEnumerable<FeedMe.DTO.EtapaDTO>
+
+@{
+    ViewBag.Title = "Editar Passos";
+}
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		$("#addAnother").click(function () {
+			$.get('/Receitas/EtapaEditorRow', function (template) {
+				$("#editorRows").append(template);
+			});
+		});
+	});
+
+	$(document).on('click', '.deleteButton', function (event) {
+		if ($(".editorRow").length > 1) {
+			$(event.target).parent().remove();
+		}
+	});
+
+</script>
+
+@using (Html.BeginForm("Etapas", "Receitas", FormMethod.Post, new { enctype = "multipart/form-data" })) {
+
+  <div class="container " style="text-align:center;">
+        <h2 style="text-align:right;">@ViewBag.Title</h2>
+        <div class="well">
+            <div id="editorRows" class="row" >
+                @foreach ( var item in Model )
+                {
+                    Html.RenderPartial("EtapaEditorRow", item);
+                }
+            </div>  
+            <button type="button" id="addAnother" class="btn btn-success">+</button>  
+            <button type="submit" class="btn btn-sucess" >Concluir Edição</button>
+        </div>
+    </div>
+}

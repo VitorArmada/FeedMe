@@ -1,0 +1,45 @@
+﻿@model FeedMe.Models.Utilizador
+
+@{
+    ViewBag.Title = "Perfil de " + Model.Nome;
+}
+
+
+
+<div class="container">
+    <h3 style="text-align:right; padding-top:50px;">Perfil de @Html.DisplayFor(model => model.Nome)</h3>
+    <legend>Receitas:</legend>
+ <div class="well align_center">
+
+	@if ( Model.Receitas.Count() == 0 )
+	{
+		@:Este utilizador ainda não criou receitas.
+	}
+    else if (User.Identity.IsAuthenticated
+             && ((FeedMe.Models.DatabaseContext.getByName(User.Identity.Name).UtilizadorId == Model.UtilizadorId)
+                 || FeedMe.Models.DatabaseContext.isAdminStatic(User.Identity.Name)))
+	{
+     <table class="table table-striped">
+         <thead><th>Nome</th></thead>
+		@foreach ( FeedMe.Models.Receita item in Model.Receitas )
+		{
+                <tr>
+                    <td><a href="@Url.Content("~/Receitas/Details/")@item.ReceitaId">@item.Titulo</a></td>
+                    <td><a href="@Url.Content("~/Receitas/Edit/")@item.ReceitaId"><i class="icon-edit pull-right"></i></a></td>
+                    <td><a href="@Url.Content("~/Receitas/Delete/")@item.ReceitaId"><i class="icon-remove pull-right"></i></a></td>
+                </tr>
+		}
+      </table>
+	}else{
+    <table class="table table-striped">
+         <thead><th>Nome</th></thead>
+		@foreach ( FeedMe.Models.Receita item in Model.Receitas )
+		{
+                <tr>
+                    <td><a href="@Url.Content("~/Receitas/Details/")@item.ReceitaId">@item.Titulo</a></td>
+                </tr>
+		}
+      </table>
+    }
+     </div>
+</div>

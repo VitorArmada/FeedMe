@@ -1,0 +1,15 @@
+﻿@model FeedMe.DTO.IngredienteReceitaDTO
+@using FeedMe.Infrastructure
+
+
+<div class="span3 editorRow align_center" style="padding-bottom:15px; text-align:left;">
+    <div class="itemCenter">
+    @using (Html.BeginCollectionItem("lir")) {
+        @Html.TextBoxFor(x => x.Nome, new {@placeholder="Nome"})
+        @Html.ValidationMessageFor(x => x.Nome)
+        @Html.TextBoxFor(x => x.Quantidade, new {@placeholder="Quantidade"})
+        @Html.ValidationMessageFor(x => x.Quantidade) 
+    }
+    <button type="button" class="deleteButton btn btn-danger" style="padding: 5px 10px 5px 10px; margin-bottom:10px; height:28px;">x</button>
+     </div>
+</div>

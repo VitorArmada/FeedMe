@@ -1,0 +1,28 @@
+﻿@model FeedMe.DTO.EtapaDTO
+@using FeedMe.Infrastructure
+
+<div class="editorRow etapaERow span10 itemCenter">
+	@using ( Html.BeginCollectionItem("list") )
+    {
+     <div class="span4" style="padding-bottom:15px;">
+		<h3>Etapa</h3>
+        @Html.LabelFor(x => x.Titulo)
+		@Html.TextBoxFor(x => x.Titulo)
+        @Html.LabelFor(x => x.Descricao)
+		@Html.TextAreaFor(x => x.Descricao) 
+		
+     </div>
+     <div class="span4" style="padding-bottom:15px;">
+        @Html.LabelFor(x => x.Imagem)
+        @if(Model != null && !String.IsNullOrWhiteSpace(Model.NomeImagem))
+        {
+            <img src="@Url.Content(Model.NomeImagem)" />
+        }
+		<input id="@Html.IdFor(x => x.Imagem)" name="@Html.NameFor(x => x.Imagem)" type="file" />
+        @Html.HiddenFor(x => x.NomeImagem)
+      </div>
+	}
+    <div class="span2" style="padding-bottom:15px;">
+	<button type="button" class="deleteButton btn btn-danger" style="margin-bottom:10px; height:28px;">x</button>
+        </div>
+ </div>

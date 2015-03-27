@@ -1,0 +1,2 @@
+<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<System.Web.HttpPostedFileBase>" %>
+<input type="file" name="<%: ViewData.TemplateInfo.GetFullHtmlFieldName("") %>" id="<%: ViewData.TemplateInfo.GetFullHtmlFieldId("") %>" />

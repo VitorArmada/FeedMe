@@ -1,0 +1,432 @@
+﻿@model FeedMe.Models.Receita
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		$(".goToNext").bind('mouseenter', function () {
+			$(this).css('cursor', 'pointer');
+		});
+
+		$(".goToNext").bind('mouseleave', function () {
+			$(this).css('cursor', 'default');
+		});
+
+		$(".goToPrev").bind('mouseenter', function () {
+		    $(this).css('cursor', 'pointer');
+		});
+
+		$(".goToPrev").bind('mouseleave', function () {
+		    $(this).css('cursor', 'default');
+		});
+
+		$(".goToStart").bind('mouseenter', function () {
+		    $(this).css('cursor', 'pointer');
+		});
+
+		$(".goToStart").bind('mouseleave', function () {
+		    $(this).css('cursor', 'default');
+		});
+
+		$(".goToNext").bind('click', function () {
+		    var Etapas = $('.receitasholder').children();
+		    var Etapas1 = $('.receitasholder').children();
+		    var nEtapas = Etapas.length;
+		    var Etapa = Etapas.filter(function () { return $(this).hasClass('active') == true; });
+		    var iEtapa = Etapa.index();
+		    var iEtapaSeguinte;
+		    if ((iEtapa + 1) == nEtapas) {
+		        iEtapaSeguinte = 0;
+		    } else {
+		        iEtapaSeguinte = iEtapa + 1;
+		    }
+
+		    Etapa.removeClass("active");
+		    Etapa.fadeOut(200);
+		    var nextEtapa = Etapas1.eq(iEtapaSeguinte);
+		    nextEtapa.addClass("active");
+		    nextEtapa.delay(250).fadeIn(250);
+
+		    var bottons = $("#navigator").children();
+		    bottons.each(function () {
+		        $(this).children().first().hide();
+		    })
+		    if (iEtapaSeguinte != 0) {
+		        $('#tostart').show();
+		    }
+		    if (iEtapaSeguinte < (nEtapas - 1)) {
+		        $('#next').show();
+		    }
+		    if (iEtapaSeguinte > 1) {
+		        $('#prev').show();
+		    }
+
+		});
+
+		$(".goToPrev").bind('click', function () {
+		    var Etapas = $('.receitasholder').children();
+		    var Etapas1 = $('.receitasholder').children();
+		    var nEtapas = Etapas.length;
+		    var Etapa = Etapas.filter(function () { return $(this).hasClass('active') == true; });
+		    var iEtapa = Etapa.index();
+		    var iEtapaSeguinte;
+		    if ((iEtapa - 1) == -1) {
+		        iEtapaSeguinte = nEtapas - 1;
+		    } else {
+		        iEtapaSeguinte = iEtapa - 1;
+		    }
+		    Etapa.removeClass("active");
+		    Etapa.fadeOut(200);
+		    var nextEtapa = Etapas1.eq(iEtapaSeguinte);
+		    nextEtapa.addClass("active");
+		    nextEtapa.delay(250).fadeIn(250);
+
+		    var bottons = $("#navigator").children();
+		    bottons.each(function () {
+		        $(this).children().first().hide();
+		    })
+		    if (iEtapaSeguinte != 0) {
+		        $('#tostart').show();
+		    }
+		    if (iEtapaSeguinte < (nEtapas - 1)) {
+		        $('#next').show();
+		    }
+		    if (iEtapaSeguinte > 1) {
+		        $('#prev').show();
+		    }
+
+		});
+
+		$(".goToStart").bind('click', function () {
+		    var Etapas = $('.receitasholder').children();
+		    var Etapa = Etapas.filter(function () { return $(this).hasClass('active') == true; });
+		    Etapa.removeClass("active");
+		    var EtapaSeguinte = Etapas.eq(0);
+		    EtapaSeguinte.addClass("active");
+		    Etapa.fadeOut(200);
+		    EtapaSeguinte.delay(250).fadeIn(250);
+		    var bottons = $("#navigator").children();
+		    bottons.each(function () {
+		        $(this).children().first().hide();
+		    })
+		    $("#tofirst").show();
+		});
+
+		$("span").bind('mouseenter', function () {
+		    $(this).css('cursor', 'pointer');
+		});
+
+		$("span").bind('mouseleave', function () {
+		    $(this).css('cursor', 'default');
+		});
+
+		var classificacao = 
+        {
+		     classificacao: 1,
+             receitaID: 1,
+             utilizadorID: 1
+		}
+
+		$(".rating > span").bind('click', function () {
+		    var value = $(this).attr("id").split("-")[1];
+		    var receitaid = parseInt(@Model.ReceitaId);
+		    @if(User.Identity.IsAuthenticated)
+            {
+                 @:var userid = parseInt(@FeedMe.Models.DatabaseContext.getByName(User.Identity.Name).UtilizadorId);
+            }
+       
+		    classificacao.classificacao = parseInt(value);
+		    classificacao.receitaID = receitaid;
+		    classificacao.utilizadorID = userid;
+            
+		    $.ajax(
+			{
+			    url: '@Url.Action("Classificar", "Receitas")',
+			    async: false,
+			    type: "POST",
+			    data: JSON.stringify({ c: classificacao }),
+			    dataType: "json",
+			    contentType: "application/json; charset=utf-8",
+			    error: function (jqXHR, textStatus, errorThrown) {
+			        alert(jqXHR + "-" + textStatus + "-" + errorThrown);
+			    },
+			    success: function (result) {
+			        var template;
+
+			        if (result == true) {
+			            actualizaClass(receitaid);
+			            template = $("<span id='errorClass' class='label label-success pull-right'>Obrigado pelo feedback</span>")
+			        }
+			        else {
+			            template = $("<span id='errorClass' class='label label-important pull-right'>Oops! Já tinhas dado</span>");
+			        }
+			        $('.rating').replaceWith(template);
+			        $('#errorClass').delay(2500).fadeOut(1000);
+                }
+			})
+            
+		});
+
+	    function actualizaClass(receitaID)
+	    {
+	        $.ajax(
+			{
+			    url: '@Url.Action("Estrelas", "Receitas")',
+			    async: false,
+			    type: "POST",
+			    data: JSON.stringify({ id: receitaID }),
+			    dataType: "html",
+			    contentType: "application/json; charset=utf-8",
+			    error: function (data) {
+			        $("#estrelas").html(data.responseText); // assim dá cagada
+			    },
+			    success: function (data) {
+			        $("#estrelas").html(data);
+			    }
+			})
+	    }
+
+	    var comentario = {
+	        userID: 1,
+            receitaID: 1,
+            texto: ""
+	    }
+
+	    $('.CommentInput').keypress(function (e) {
+	        if (e.keyCode == '13') {
+	            e.preventDefault();
+	            var texto = $('.CommentInput').val();
+	            if (texto == "") return;
+	            Comentar(texto);
+	        }
+	    })
+
+	    $('#SubmitComment').bind('click', function () {
+	        var texto = $('.CommentInput').val();
+	        if (texto == "") return;
+	        Comentar(texto);
+	    })
+
+	    function Comentar(text) {
+	        var texto = text;
+            
+		    @if(User.Identity.IsAuthenticated)
+            {
+                 @:var userid = parseInt(@FeedMe.Models.DatabaseContext.getByName(User.Identity.Name).UtilizadorId);
+            }
+	        var receitaid = parseInt(@Model.ReceitaId);
+
+	        comentario.userID = userid;
+	        comentario.receitaID = receitaid;
+	        comentario.texto = texto;
+
+	        $.ajax(
+			{
+			    url: '@Url.Action("Comentar", "Receitas")',
+			    async: false,
+			    type: "POST",
+			    data: JSON.stringify({ c: comentario }),
+			    dataType: "json",
+			    contentType: "application/json; charset=utf-8",
+			    error: function (jqXHR, textStatus, errorThrown) {
+			        alert(jqXHR + "-" + textStatus + "-" + errorThrown);
+			    },
+			    success: function (data) {
+			        actualizaComments(receitaid);
+			        $(".CommentInput").val('');;
+			        var message = $("#reportError");
+			        message.hide();
+			        message.text("Comentário Adicionado");
+			        message.fadeIn(200);
+			        message.delay(3000).slideToggle(500);			      
+			    }
+			})
+
+	    };
+
+	    function actualizaComments(receita_id) {
+	        $.ajax(
+			{
+			    url: '@Url.Action("Comentarios", "Receitas")',
+			    async: false,
+			    type: "POST",
+			    data: JSON.stringify({ id : receita_id }),
+			    dataType: "html",
+			    contentType: "application/json; charset=utf-8",
+			    error: function (jqXHR, textStatus, errorThrown) {
+			        alert(jqXHR + "-" + textStatus + "-" + errorThrown);
+			    },
+			    success: function (data) {
+			        $(".commentholder").html(data);
+			    }
+			})
+	    }
+
+	});
+
+    $(document).on('click','.close', function(){
+
+            var idval = $(this).parent().attr("id");
+
+            $.ajax({
+                type: "POST",
+                url: "/Receitas/DeleteComment/" + idval,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: deleteComment
+            });       
+
+    });
+
+    function deleteComment(comment_id) {
+        var children = $(".commentholder").children();
+        var comment = children.filter(function () { return $(this).attr("id") == comment_id });
+        comment.toggle(500);
+    }
+
+</script>
+
+<div class="container" style="padding-top:50px">
+
+	<div class="well">
+
+        <legend>@Html.DisplayFor(model => model.Titulo)   
+			
+			 @if (User.Identity.IsAuthenticated
+				&& ( (FeedMe.Models.DatabaseContext.getByName(User.Identity.Name).UtilizadorId == Model.Utilizador.UtilizadorId)
+					|| FeedMe.Models.DatabaseContext.isAdminStatic(User.Identity.Name)) ) { 
+                <a href="@Url.Content("~/Receitas/delete")/@Model.ReceitaId"><i class="icon-remove pull-right"></i></a>
+              <a href="@Url.Content("~/Receitas/edit")/@Model.ReceitaId"><i class="icon-edit pull-right"></i></a>
+              
+
+          } <a href="http://www.youtube.com/results?search_query=@Model.Titulo"><i class="icon-film pull-right"></i></a>
+             
+            </legend>
+        @if (User.Identity.IsAuthenticated
+				&& ( (FeedMe.Models.DatabaseContext.getByName(User.Identity.Name).UtilizadorId != Model.Utilizador.UtilizadorId)
+					&& false == FeedMe.Models.DatabaseContext.isAdminStatic(User.Identity.Name)) ) {
+            <div class="rating">
+				<span id="star-5">☆</span>
+				<span id="star-4">☆</span>
+				<span id="star-3">☆</span>
+		        <span id="star-2">☆</span>
+				<span id="star-1">☆</span>
+	        </div>
+        }
+		<div class="receitasholder">
+			<div class="receitadiv active">
+				<div class="row">
+					<div class="span5">
+                            <img src="@Href(Model.getLastPictureUrl())" class="img-rounded" alt="" height="300" />
+					</div>
+					<div class="span5">
+                        <p><strong>Utilizador: </strong><a href="@Url.Content("~/Utilizadores/Details")/@Model.Utilizador.UtilizadorId">@Html.DisplayFor(model => model.Utilizador.Nome)</a></p>
+                        <p><i class="icon-time"></i> @Html.DisplayFor(model => model.Duracao) Minutos </p>		               
+                        @if(!String.IsNullOrWhiteSpace(Model.NumeroPessoas)){<p><i class="icon-user"></i> @Html.DisplayFor(model => model.NumeroPessoas) </p>}
+		                <p id="estrelas" > @{ Html.RenderPartial("Estrelas", Model); }</p>    
+
+		                @if(!String.IsNullOrWhiteSpace(Model.Descricao)){<p><strong>Descrição: </strong>@Html.DisplayFor(model => model.Descricao)</p>}
+		                @if(null==Model.Custo){<p><strong>Custo: </strong>@Html.DisplayFor(model => model.Custo.Nome)</p>}
+		                @if(null==Model.Tipo){<p><strong>Tipo: </strong>@Html.DisplayFor(model => model.Tipo.Nome)</p>}
+		                @if(null==Model.Origem){<p><strong>Origem: </strong>@Html.DisplayFor(model => model.Origem.Nome)</p>}
+                        <p><strong>Ingredientes:</strong></p>
+		                <ul>
+		                @foreach (var item in Model.IngredientesReceita)
+                        {
+			                <li>
+			                @Html.DisplayFor(x => item.Quantidade)
+			                @Html.DisplayFor(x => item.Ingrediente.Nome)
+			                </li>
+                        }
+		                </ul>					 
+					</div>
+				</div>
+
+			</div>
+
+
+
+            @foreach (var item in Model.Etapas)
+            {
+		           
+                <div id="afterDisplay" class="receitadiv">
+				<div class="row">
+					<div class="span5">
+						<img src="@{
+                                        if (String.IsNullOrWhiteSpace(item.Imagem))
+                                        {
+						                        @Href(Model.getLastPictureUrl())
+                                        }
+                                        else
+                                        {
+						                        @Href(item.Imagem)
+                                        }
+				                    }
+				    " class="img-rounded" alt="" height="300" >
+					</div>
+					<div class="span5">
+
+                        <h4>Passo @item.Numero - @item.Titulo</h4>		
+
+		                <p>@item.Descricao</p>
+                        					 
+					</div>
+				</div>
+
+			</div>
+                
+            }
+            </div>
+            <div id="navigator">
+                @if(Model.Etapas.Count>0)
+                {
+                    <div class="nav_button"><span id="tofirst" class="goToNext label label-info" style="margin-bottom: 20px;">Instruções</span></div>
+                }
+                <div class="nav_button">
+                    <button id="tostart" class="goToStart btn btn-mini btn-primary" type="button" style="display:none;"><i class="icon-repeat icon-white" style="margin-top:2px"></i></button>
+                </div>
+                <div class="nav_button">
+                     <button id="prev" class="goToPrev btn btn-mini btn-primary" type="button" style="display:none;"><i class="icon-chevron-left icon-white" style="margin-top:2px"></i></button>
+                </div>
+                <div class="nav_button">
+                    <button id="next" class="goToNext btn btn-mini btn-primary" type="button" style="display:none;"><i class="icon-chevron-right icon-white" style="margin-top:2px"></i></button>
+                </div>
+           </div>
+		<hr>
+
+            
+
+		<div class="commentholder">
+            @{ Html.RenderPartial("Comentarios", Model); }
+            <!--@foreach (var item in Model.Comentarios)        
+            {
+
+	            <div class="comment" id="@Html.DisplayFor(modelItem => item.ComentarioId)">
+                    @if (User.Identity.IsAuthenticated && (User.Identity.Name == item.Utilizador.Nome))
+                    {
+	                  <button type="button" class="close" data-dismiss="alert">×</button>
+                    }
+	                  <strong>@Html.DisplayFor(modelItem => item.Utilizador.Nome) @Html.DisplayFor(modelItem => item.Data)</strong>
+	                  <p>@Html.DisplayFor(modelItem => item.Texto)</p>
+	            </div>
+                
+            }-->
+            
+        </div>
+        @if(User.Identity.IsAuthenticated){
+        <div id="comentario" class="form-inline">
+                <input class="CommentInput" maxlength="300" placeholder="Escreva o seu comentário"/>
+                <button id="SubmitComment" class="btn btn-success">Enviar Comentário</button>
+            <p id="reportError"></p>
+	    </div> 
+        }
+        <hr />
+
+        
+    
+	</div>
+
+</div>

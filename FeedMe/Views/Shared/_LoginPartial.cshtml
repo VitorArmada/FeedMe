@@ -1,0 +1,28 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">@User.Identity.Name<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            @if (FeedMe.Models.DatabaseContext.isAdminStatic(User.Identity.Name))
+            {
+                <li><a href="@Url.Content("~/Home/Administracao")">Painel de Administração</a></li>
+            }
+			<li><a class="username" href="@Url.Content("~/Account/Manage")" title="Manage">Definições de Conta</a></li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Terminar Sessão</a></li>
+		</ul>
+    </li>
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+            {
+             @Html.AntiForgeryToken()
+            }
+}
+else
+{
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sessão Não Iniciada<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li>@Html.ActionLink("Iniciar Sessão", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+            <li>@Html.ActionLink("Registar-me", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        </ul>
+    </li>
+}

@@ -1,0 +1,202 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+
+<script type="text/javascript">
+	$(document).ready(function ()
+	{
+		$(".flatsearchyes").select2(
+			{
+				placeholder: "Selectiona Ingrediente que queres",
+				multiple: true,
+				minimumInputLength: 1,
+				//maximumSelectionSize: 5,
+				allowClear: true,
+				ajax: {
+					dataType: "json",
+					type: "POST",
+					url: "@Url.Action("FetchIngredientes", "Ingrediente")",
+					data: function (term) {
+						return {
+							searchTerm: term
+						};
+					},
+					results: function (data) {
+						return { results: data };
+					}
+				},
+			});
+
+		$(".flatsearchno").select2(
+			{
+				placeholder: "Selectiona Ingrediente que não queres",
+				multiple: true,
+				minimumInputLength: 1,
+				//maximumSelectionSize: 5,
+				allowClear: true,
+				ajax: {
+					dataType: "json",
+					type: "POST",
+					url: "@Url.Action("FetchIngredientes", "Ingrediente")",
+					data: function (term) {
+						return {
+							searchTerm: term
+						};
+					},
+					results: function (data) {
+						return { results: data };
+					}
+				},
+			});
+
+		var pesquisa =
+			{
+				titulo: "",
+				descricao: "",
+				tipo: "",
+				origem: "",
+				dificuldade: "",
+				custo: "",
+				ingrSim: [],
+				ingrNao: []
+			}
+
+		var paginaActual = 0
+		var hasPrev = 0
+		var hasNext = 0
+
+		var pesquisas = 0;
+
+		var obterResultados = function ()
+		{
+			pesquisa.titulo = $("#TituloTextbox").val();
+			pesquisa.descricao = $("#DescricaoTextbox").val();
+			pesquisa.tipo = $("#Tipos").val();
+			pesquisa.origem = $("#Origens").val();
+			pesquisa.dificuldade = $("#Dificuldades").val();
+			pesquisa.custo = $("#Custos").val();
+			pesquisa.ingrSim = $(".flatsearchyes").select2('data');
+			pesquisa.ingrNao = $(".flatsearchno").select2('data');
+
+
+			$.ajax(
+			{
+				url: '@Url.Action("Resultados", "Receitas")',
+				async: false,
+				type: "POST",
+				data: JSON.stringify({ pageIndex: paginaActual, p: pesquisa }),
+				dataType: "html",
+				contentType: "application/json; charset=utf-8",
+				error: function (jqXHR, textStatus, errorThrown)
+				{
+					alert(jqXHR + "-" + textStatus + "-" + errorThrown);
+				},
+				success: function (data)
+				{
+				    if (pesquisas == 0)
+				    {
+				        $("#PesquisaHolder").slideToggle();
+				        pesquisas++;
+				    }
+
+				    var resultados = $("#PesquisaContainer");
+
+				    resultados.fadeOut(300);
+				    resultados.toggle();
+				    resultados.html(data);				    
+				    resultados.fadeIn(300);
+
+					hasPrev = $("#HasPrev").val();
+					hasNext = $("#HasNext").val();
+					if (hasPrev == 1) {
+						$("#PrevButton").show();
+					} else {
+						$("#PrevButton").hide();
+					}
+					if (hasNext == 1) {
+						$("#NextButton").show();
+					} else {
+						$("#NextButton").hide();
+					}
+					//jData = $.parseJSON(data);
+					//window.location = data.RedirectUrl;
+				}
+			})
+		}
+
+		$("#search_button").click(obterResultados);
+		$("#PrevButton").click(function () {
+			paginaActual = paginaActual - 1;
+			obterResultados();
+		});
+		$("#NextButton").click(function () {
+			paginaActual = paginaActual + 1;
+			obterResultados();
+		});
+
+	})
+	
+</script>
+
+<div id="midnav">
+	<div class="container">
+		<div class="searchinputs">
+			<img src="~/Content/img/logo_min4.png"><br>
+			<br>
+			<form class="form-inline">
+				<input type="text" class="flatsearchyes">
+				<input type="text" class="flatsearchno">
+				<button class="xtrabutton" type="button" id="xtra"><i class="icon-plus icon-white"></i></button>
+				<button class="xtrabutton" type="button" id="search_button"><i class="icon-search icon-white"></i></button>
+			</form>
+		</div>
+	</div>
+	<div class="container" >
+		<div class="xtrasearchoptions" >
+			<div class="xtrasearchdiv" >
+				<div class="row-fluid" >
+					<div class="span4 align_center" >
+                        <div class="itemCenter">
+						    <label for="TituloTextbox" class="labelPesquisa">Título</label>
+						    <input type="text" id="TituloTextbox" />
+						    <label for="DescricaoTextbox" class="labelPesquisa">Descrição</label>
+						    <input type="text" id="DescricaoTextbox" />
+                        </div>
+					</div>
+					<div class="span4 align_center" >
+                        <div class="itemCenter">
+						    <label for="Tipos" class="labelPesquisa">Tipo de Receita</label>
+						    @Html.DropDownList("Tipos", "Escolha um tipo")
+						    <label for="Origens" class="labelPesquisa">Origem</label>
+						    @Html.DropDownList("Origens", "Escolha uma origem")
+                        </div>
+					</div>
+					<div class="span4 align_center" >
+                        <div class="itemCenter">
+						    <label for="Tipos" class="labelPesquisa">Dificuldade</label>
+						    @Html.DropDownList("Dificuldades", "Escolha uma dificuldade")
+						    <label for="Tipos" class="labelPesquisa">Custo</label>
+						    @Html.DropDownList("Custos", "Escolha uma custo")
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="PesquisaHolder" style="display:none; height:400px;">
+	    <div class="container" id="PesquisaContainer" style="display: none;"></div>
+    </div>
+
+    <div class="container">
+        <ul class="pager" style="float: left">
+            <li style="display: none;" id="PrevButton"><a href="#">Anterior</a></li>
+        </ul>
+         <ul class="pager" style="float: right">
+            <li style="display: none;" id="NextButton"><a href="#">Próxima</a></li>
+        </ul>
+    </div>
+	<div class="align_center">
+		<img src="~/Content/img/platefk2.png">
+	</div>
+</div>

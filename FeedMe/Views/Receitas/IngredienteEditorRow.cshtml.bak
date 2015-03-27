@@ -1,0 +1,15 @@
+﻿@model FeedMe.DTO.IngredienteReceitaDTO
+@using FeedMe.Infrastructure
+
+<div class="editorRow span2" style="padding-left:20px;">
+    @using (Html.BeginCollectionItem("lir")) {
+        <legend>Ingrediente</legend>
+        @Html.LabelFor(x => x.Nome)
+        @Html.EditorFor(x => x.Nome)
+        @Html.ValidationMessageFor(x => x.Nome)
+        @Html.LabelFor(x => x.Quantidade)
+        @Html.EditorFor(x => x.Quantidade)
+        @Html.ValidationMessageFor(x => x.Quantidade) 
+    }
+    <a class="deleteButton" href="#">Eliminar</a>
+</div>
